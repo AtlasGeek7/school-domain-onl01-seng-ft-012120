@@ -21,7 +21,7 @@ class School
 
   def sort
     hash = {}
-    roster.map { |g,s|  hash[g] = s.sort }
+    roster.map { |g,s|hash[g] = s.sort }
     return hash
   end
 end
